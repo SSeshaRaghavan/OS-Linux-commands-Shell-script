@@ -448,6 +448,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="263" height="119" alt="Screenshot 2025-10-07 162316" src="https://github.com/user-attachments/assets/0800fbce-f77e-4674-8326-4d68c71d5b48" />
 
 
 cat < scriptest.sh 
@@ -486,6 +487,9 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="311" height="245" alt="Screenshot 2025-10-07 162554" src="https://github.com/user-attachments/assets/f8fa19ef-74d7-4192-a278-42f9134fcf90" />
+<img width="275" height="244" alt="Screenshot 2025-10-07 162601" src="https://github.com/user-attachments/assets/fdfc9c51-6492-4d2d-90e5-3fd06132fe22" />
+,<img width="310" height="94" alt="Screenshot 2025-10-07 162611" src="https://github.com/user-attachments/assets/46682083-79de-40f8-94fe-c2ba59d98539" />
 
  
 ls file1
@@ -495,10 +499,12 @@ echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
- 
+ <img width="178" height="130" alt="Screenshot 2025-10-08 134337" src="https://github.com/user-attachments/assets/8595df18-1824-48b9-b8b7-d4096a0e0b4c" />
+
 echo $?
 ## OUTPUT 
- 
+ <img width="166" height="60" alt="Screenshot 2025-10-08 134345" src="https://github.com/user-attachments/assets/452b6808-a1f9-47f7-9f9c-ac1687875ed3" />
+
 abcd
  
 echo $?
@@ -522,6 +528,7 @@ fi
 ^d
 ```
 
+
 cat strcomp.sh 
 ```bash
 \#!/bin/bash
@@ -535,13 +542,15 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
+<img width="283" height="183" alt="Screenshot 2025-10-08 134315" src="https://github.com/user-attachments/assets/85671503-a45b-49a2-9f96-b9de8bb386fe" />
+<img width="288" height="186" alt="Screenshot 2025-10-08 134325" src="https://github.com/user-attachments/assets/6f775bd1-6ab3-4b85-b184-58b96ebca414" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="325" height="136" alt="Screenshot 2025-10-08 134438" src="https://github.com/user-attachments/assets/2f52a7f8-cab0-4c0a-a8a5-4c23f2ff6718" />
 
 
 # check file ownership
@@ -569,6 +578,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="486" height="379" alt="Screenshot 2025-10-08 134606" src="https://github.com/user-attachments/assets/5bbe9eb9-3804-486f-9de9-a3a82d117b1e" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -615,6 +625,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="433" height="845" alt="Screenshot 2025-10-08 134916" src="https://github.com/user-attachments/assets/60e26ec7-a703-4956-a2d8-8e5e9702d33d" />
 
 
 
