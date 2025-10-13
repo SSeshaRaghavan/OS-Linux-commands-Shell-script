@@ -670,6 +670,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="371" height="657" alt="Screenshot 2025-10-08 135120" src="https://github.com/user-attachments/assets/40929668-8d17-45fe-a6d9-fc26542e505e" />
 
 # check if a file
 cat > ifnested.sh 
@@ -747,6 +748,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="439" height="460" alt="Screenshot 2025-10-08 135550" src="https://github.com/user-attachments/assets/9998e2e4-c02a-4a2b-aaf9-d76e68aec91e" />
 
 
 # testing compound comparisons
@@ -763,6 +765,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="390" height="450" alt="Screenshot 2025-10-08 135610" src="https://github.com/user-attachments/assets/f7652190-fad8-46ee-a908-37460f80657d" />
 
 # using the case command
 cat >casecheck.sh 
@@ -782,6 +785,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+<img width="469" height="555" alt="Screenshot 2025-10-08 135626" src="https://github.com/user-attachments/assets/0f36b90d-4c51-4f9b-b297-e21a1d1423c7" />
  
 cat > whiletest
 ```bash
@@ -797,7 +801,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ <img width="235" height="610" alt="Screenshot 2025-10-08 140038" src="https://github.com/user-attachments/assets/2cbbc8e1-99fa-4f45-a904-d636f79604fc" />
+
  
 cat untiltest.sh 
 ```bash
@@ -810,6 +815,7 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+<img width="295" height="694" alt="Screenshot 2025-10-08 140051" src="https://github.com/user-attachments/assets/d6fc5235-8f43-4083-a740-a7b84c845e31" />
  
  
  
