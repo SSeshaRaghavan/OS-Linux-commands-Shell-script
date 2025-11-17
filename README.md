@@ -720,6 +720,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="382" height="822" alt="Screenshot 2025-10-14 160946" src="https://github.com/user-attachments/assets/78a9a65e-8869-46fe-9c14-d27417578b06" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -878,6 +879,7 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+<img width="518" height="373" alt="Screenshot 2025-10-14 161405" src="https://github.com/user-attachments/assets/fa174638-51e1-4462-adef-1827bc67bdc1" />
 
 ## OUTPUT
 cat forinfile.sh 
@@ -901,6 +903,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="645" height="563" alt="Screenshot 2025-10-14 161630" src="https://github.com/user-attachments/assets/5b1febbb-758c-4d7e-84bf-da26b8e6614f" />
 
 
 cat forctype.sh 
@@ -916,6 +919,8 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
+<img width="255" height="463" alt="Screenshot 2025-10-14 162456" src="https://github.com/user-attachments/assets/26dba105-87c8-46b4-a8d2-98bbc7b26c7f" />
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -928,6 +933,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="301" height="470" alt="Screenshot 2025-10-14 162226" src="https://github.com/user-attachments/assets/b7c8c357-09ae-4f33-b95d-b4f21a33e497" />
 
 cat fornested1.sh 
 ```bash
@@ -946,6 +952,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="242" height="699" alt="Screenshot 2025-10-14 162253" src="https://github.com/user-attachments/assets/8a17c309-ba49-480d-a7c0-304670249c98" />
 
  
 cat forbreak.sh 
@@ -963,6 +970,10 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+
+<img width="569" height="373" alt="Screenshot 2025-10-14 162303" src="https://github.com/user-attachments/assets/be98e580-f0d2-4a83-889d-fa847b8a8df3" />
+
+
 
 $ chmod 755 forbreak.sh
  
@@ -988,7 +999,9 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+
+ <img width="594" height="397" alt="Screenshot 2025-10-14 162720" src="https://github.com/user-attachments/assets/7dab2798-6a20-4674-9a82-60c09cc402fb" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
